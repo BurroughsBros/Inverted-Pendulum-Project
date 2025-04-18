@@ -1,0 +1,2801 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4464222e-e67b-40e1-8787-7d21dfda3cc7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:TL082"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL082"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL082_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL082_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+8V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+8V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+8V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+8V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+8V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-8V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-8V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-8V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-8V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-8V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 54.61 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2deff144-9f14-4d91-9316-b83906bc1652")
+	)
+	(junction
+		(at 149.86 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fea88c9-877e-452b-b370-95a4ea8da3cf")
+	)
+	(junction
+		(at 80.01 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7afede2e-75b6-4bcf-944c-37437469f8e6")
+	)
+	(junction
+		(at 55.88 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9112426d-856d-45ca-b1d9-03cd50edb04f")
+	)
+	(junction
+		(at 82.55 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce028fdc-1768-4141-a4b4-1974214ae9d2")
+	)
+	(junction
+		(at 121.92 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d246c053-daff-4d4f-bcea-bf5fbc282b33")
+	)
+	(junction
+		(at 111.76 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6605d3a-5c24-46da-8e02-5f296984273c")
+	)
+	(no_connect
+		(at 190.5 118.11)
+		(uuid "0be979ed-aea2-4890-a6da-0a581ca99d8d")
+	)
+	(no_connect
+		(at 205.74 120.65)
+		(uuid "e964f4e8-5273-47ae-aca0-7e200b75de3c")
+	)
+	(no_connect
+		(at 190.5 123.19)
+		(uuid "ff883d29-d8ec-40db-9bfe-0f78f37b3db9")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01deded9-3f32-4abe-bfa3-2262153a07ed")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054afb87-6d1d-444a-a069-b6ceaad11141")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059d8cda-c142-4be0-abb3-7b8f2c0ab640")
+	)
+	(wire
+		(pts
+			(xy 80.01 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a170ee-4baa-4ed3-9272-56539a979b69")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220afec9-a64f-4843-914d-ead361b3fe71")
+	)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 80.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29eff04b-4113-4db8-86ab-fae1a6905c1c")
+	)
+	(wire
+		(pts
+			(xy 121.92 38.1) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bac6670-9cf8-4638-8d8d-110229ac3189")
+	)
+	(wire
+		(pts
+			(xy 111.76 57.15) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f53b0f0-eed4-4d17-b22b-608ea40c64a0")
+	)
+	(wire
+		(pts
+			(xy 64.77 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393519ed-a2df-4f54-9f0a-4be2d9ff2671")
+	)
+	(wire
+		(pts
+			(xy 99.06 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1f7d63-4304-48b6-aba8-ec89b66ceae2")
+	)
+	(wire
+		(pts
+			(xy 149.86 38.1) (xy 149.86 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f2a320-9527-4e58-8392-5276db0c86fe")
+	)
+	(wire
+		(pts
+			(xy 82.55 30.48) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5747cd9d-5a23-4f20-ad52-dceaa360a5b4")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac72ea3-9333-4f26-ab45-60199a11a92d")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 200.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5e1a5d-0901-424a-bfe6-b63cd2c8e018")
+	)
+	(wire
+		(pts
+			(xy 139.7 38.1) (xy 149.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa04930-72bd-4022-bc4c-a8841e8d32c5")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613ba830-6d55-4f81-be2b-0284915710e8")
+	)
+	(wire
+		(pts
+			(xy 190.5 105.41) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646493c2-38b3-4ed3-9d9c-676c2ccf5d6c")
+	)
+	(wire
+		(pts
+			(xy 54.61 62.23) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663a5364-77b3-4d31-90db-d21b993a3a5c")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c85ebb-5d94-4b3d-a82d-fbdb7d141c3f")
+	)
+	(wire
+		(pts
+			(xy 39.37 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a126a10-5239-45d9-997a-34019ff7c267")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3d743a-c0e0-47c3-bdb1-b75900bc2b9c")
+	)
+	(wire
+		(pts
+			(xy 55.88 30.48) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cd5b74-edef-4c81-b207-2b0780ed20d3")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fb75d3-536a-4141-bf63-bb02f1309daf")
+	)
+	(wire
+		(pts
+			(xy 125.73 57.15) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8c3f2f-f62b-4ea0-af36-cf941b41e331")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a6859c-0477-492d-8a29-35ae2faba18f")
+	)
+	(wire
+		(pts
+			(xy 54.61 80.01) (xy 59.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4a3423-7a1e-43fd-b14c-5fa3ee70473a")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 40.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffcdb5d-fd51-4843-84ec-be70da7d0a75")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 111.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92082561-212f-4472-b443-86b704fe5d74")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980a05b6-cfa5-4c80-b04c-7afa869ad785")
+	)
+	(wire
+		(pts
+			(xy 55.88 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a676dd33-dd51-4fba-939e-b0bb0eb92b9a")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e84e42-4881-402d-acc8-7db9b7ac133e")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.82) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac16b125-59a2-43da-b9a0-923963d04fb8")
+	)
+	(wire
+		(pts
+			(xy 132.08 38.1) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e80fe3-0171-4408-aca3-867a61c45bb9")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b881efb7-5aa9-4e8c-9797-cc64e1584a80")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 186.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7ee5ef-b634-4f66-9151-4c249838d4db")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9d029d-abc3-452f-8494-7b2d2276b918")
+	)
+	(wire
+		(pts
+			(xy 72.39 30.48) (xy 82.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffb94d3-df48-48cb-ba7e-347861f0e5e3")
+	)
+	(wire
+		(pts
+			(xy 57.15 74.93) (xy 59.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4557a1a-0282-449c-a69c-402ffe11d202")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1ef08a-3d81-4090-a69f-5a7f84f00b1b")
+	)
+	(wire
+		(pts
+			(xy 204.47 105.41) (xy 204.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d586eccd-6d3f-433a-9abb-d8970a96aef4")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40a0cd9-78e2-4f39-b0bc-91ac504988f6")
+	)
+	(wire
+		(pts
+			(xy 186.69 105.41) (xy 190.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58bddb2-f897-4d5e-a065-bb0f0c2a5053")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 74.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96869c3-f101-46f8-85b7-b1bb1c9b23ce")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed96da88-f779-4f92-aabf-63acf6e80b98")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f830b9c4-9415-4292-b1de-bbf00c1669bb")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8ec6f6-e639-4132-ad22-b339f8c33600")
+	)
+	(global_label "posDAC"
+		(shape input)
+		(at 38.1 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "136959ec-5df7-4345-a750-8ca2c636140b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.1601 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "negDAC"
+		(shape input)
+		(at 52.07 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6068ba66-eb16-49ce-9c1c-330717933a19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0696 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MotorCmd"
+		(shape output)
+		(at 156.21 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebde6d89-4786-40c3-8c01-11ba6e47c469")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.5688 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d1a4c4-c9e1-4895-9e34-e80647068241")
+		(property "Reference" "R3"
+			(at 44.45 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.45 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.704 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c0ec2e8-19d9-40cb-861a-6b305b6b85c9")
+		)
+		(pin "1"
+			(uuid "7bbeffb8-1a79-41f4-af3f-35b00f892c58")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17aaf137-bf14-4c8d-b725-8c8c29188068")
+		(property "Reference" "R2"
+			(at 44.45 50.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.45 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.704 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c97dcbe-9bc5-44ee-9b38-c4063b639e3f")
+		)
+		(pin "1"
+			(uuid "0d42c07f-d6e8-4373-920a-006ae3e484c0")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 198.12 120.65 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0e9f9a-63a2-4c8c-83f2-08a40b60d461")
+		(property "Reference" "U2"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 198.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "868f3851-6d63-4bb5-a86d-fdf5379f452d")
+		)
+		(pin "7"
+			(uuid "0692ec14-96a9-4b1d-a55e-9e3c8baa5fa8")
+		)
+		(pin "6"
+			(uuid "4d6eb999-2ac8-49a4-8491-846e3812e211")
+		)
+		(pin "8"
+			(uuid "d50ef987-87e6-4b85-b19e-67c419a1c17f")
+		)
+		(pin "3"
+			(uuid "fd59ed02-a786-4620-8c43-e08c840866a5")
+		)
+		(pin "4"
+			(uuid "f2a3fbdc-b577-43c0-abfc-67fc921cad13")
+		)
+		(pin "1"
+			(uuid "05051396-5d2c-459c-9e08-f08fab0e6629")
+		)
+		(pin "5"
+			(uuid "907c481c-3fea-4edc-92b4-fa9b21816b12")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 189.23 93.98 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f0c61db-7d7c-4e58-9239-2b1d1ae9294a")
+		(property "Reference" "U1"
+			(at 187.96 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL082"
+			(at 187.96 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0dd52580-e5a4-4e9d-829f-fcc39562e7d6")
+		)
+		(pin "6"
+			(uuid "5a9fe38b-6a04-4bb9-b678-cf565da39333")
+		)
+		(pin "2"
+			(uuid "c7b1b1a4-b080-4127-a783-fad938c8d64f")
+		)
+		(pin "1"
+			(uuid "2d292d9f-94cd-4d33-bbc3-36778cc1d32d")
+		)
+		(pin "4"
+			(uuid "53b9dea9-86ba-4c0d-b2cd-233dee272628")
+		)
+		(pin "3"
+			(uuid "8bbc64d7-9b34-469d-9a2e-c8ec7fdcc8d5")
+		)
+		(pin "5"
+			(uuid "35d7f6b8-3df5-42ea-945a-18601a55c57b")
+		)
+		(pin "8"
+			(uuid "af82ef0d-7161-40bb-afba-85d04c081433")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 68.58 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4891a323-5098-44b0-8543-3a43ebbee1e2")
+		(property "Reference" "R1"
+			(at 68.58 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "14.2k"
+			(at 68.58 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.834 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ead233-9d38-43b3-972a-6d5819551618")
+		)
+		(pin "2"
+			(uuid "0cac423b-7bf1-4255-a4ce-710f1a66d5ac")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72f901c0-3d1d-487e-be41-8a7007a2eaf3")
+		(property "Reference" "R6"
+			(at 102.87 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.124 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c952245-c1ce-4125-9788-d609f18f379d")
+		)
+		(pin "1"
+			(uuid "d1c49e77-171a-4f0e-a5eb-b48ec24f2dda")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 200.66 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "959227c4-a06e-42f6-82bc-4927f8d22f37")
+		(property "Reference" "#PWR05"
+			(at 200.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+8V"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a2da606-c41c-4d0b-aff9-39579e31ee61")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-8V")
+		(at 190.5 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2736ce8-9dea-4976-aa99-aba99c744100")
+		(property "Reference" "#PWR02"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-8V"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d06708-54cc-4f36-93bb-d1f01e9a75d2")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-8V")
+		(at 204.47 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c6fb48-14d2-41a1-9171-7c7f3b137e3f")
+		(property "Reference" "#PWR04"
+			(at 204.47 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-8V"
+			(at 204.47 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-8V\""
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08af6094-ad46-4a16-8664-89357b2da6b7")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd67e77-6ab6-42a8-94f4-04a825fa52ed")
+		(property "Reference" "#PWR03"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849e65b3-416d-4a44-95b7-3ed2cef607be")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acfd9c7e-b066-4f4c-9b43-38e9ff40b08e")
+		(property "Reference" "#PWR06"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aaa59de-7459-40f8-9b81-4d110ea9a527")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cedff54b-6fb8-48c8-8daa-cbd9200ac14a")
+		(property "Reference" "#PWR07"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aba8628f-acff-4464-a917-225897fa7ffe")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 203.2 93.98 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d252e502-e520-4f71-af8e-e574e52cebd8")
+		(property "Reference" "U2"
+			(at 201.93 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL082"
+			(at 201.93 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 203.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "868f3851-6d63-4bb5-a86d-fdf5379f452e")
+		)
+		(pin "7"
+			(uuid "0692ec14-96a9-4b1d-a55e-9e3c8baa5fa9")
+		)
+		(pin "6"
+			(uuid "4d6eb999-2ac8-49a4-8491-846e3812e212")
+		)
+		(pin "8"
+			(uuid "d50ef987-87e6-4b85-b19e-67c419a1c180")
+		)
+		(pin "3"
+			(uuid "fd59ed02-a786-4620-8c43-e08c840866a6")
+		)
+		(pin "4"
+			(uuid "f2a3fbdc-b577-43c0-abfc-67fc921cad14")
+		)
+		(pin "1"
+			(uuid "05051396-5d2c-459c-9e08-f08fab0e662a")
+		)
+		(pin "5"
+			(uuid "907c481c-3fea-4edc-92b4-fa9b21816b13")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 186.69 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c56619-961f-4e72-9128-fd18256272ae")
+		(property "Reference" "#PWR01"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+8V"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10c5a328-64e3-4cd3-a1a2-8033f6995eb8")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 67.31 77.47 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e7f594-b50a-43d3-a904-8d06eb7422ce")
+		(property "Reference" "U1"
+			(at 67.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0dd52580-e5a4-4e9d-829f-fcc39562e7d7")
+		)
+		(pin "6"
+			(uuid "5a9fe38b-6a04-4bb9-b678-cf565da39334")
+		)
+		(pin "2"
+			(uuid "c7b1b1a4-b080-4127-a783-fad938c8d650")
+		)
+		(pin "1"
+			(uuid "2d292d9f-94cd-4d33-bbc3-36778cc1d32e")
+		)
+		(pin "4"
+			(uuid "53b9dea9-86ba-4c0d-b2cd-233dee272629")
+		)
+		(pin "3"
+			(uuid "8bbc64d7-9b34-469d-9a2e-c8ec7fdcc8d6")
+		)
+		(pin "5"
+			(uuid "35d7f6b8-3df5-42ea-945a-18601a55c57c")
+		)
+		(pin "8"
+			(uuid "af82ef0d-7161-40bb-afba-85d04c081434")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c48cf9-3951-4c24-a743-37e9cb9a4e73")
+		(property "Reference" "R7"
+			(at 135.89 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.144 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfcbca00-7eb0-43e7-b064-9b3ab4f80d9a")
+		)
+		(pin "1"
+			(uuid "a6a2924f-5f4e-4ef7-959e-7ab3f70c1eea")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 67.31 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e87de086-bb37-4b1b-af7b-972022cc9fc0")
+		(property "Reference" "U1"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0dd52580-e5a4-4e9d-829f-fcc39562e7d8")
+		)
+		(pin "6"
+			(uuid "5a9fe38b-6a04-4bb9-b678-cf565da39335")
+		)
+		(pin "2"
+			(uuid "c7b1b1a4-b080-4127-a783-fad938c8d651")
+		)
+		(pin "1"
+			(uuid "2d292d9f-94cd-4d33-bbc3-36778cc1d32f")
+		)
+		(pin "4"
+			(uuid "53b9dea9-86ba-4c0d-b2cd-233dee27262a")
+		)
+		(pin "3"
+			(uuid "8bbc64d7-9b34-469d-9a2e-c8ec7fdcc8d7")
+		)
+		(pin "5"
+			(uuid "35d7f6b8-3df5-42ea-945a-18601a55c57d")
+		)
+		(pin "8"
+			(uuid "af82ef0d-7161-40bb-afba-85d04c081435")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL082")
+		(at 135.89 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc659b1-59aa-42c2-9853-ae054ef43dff")
+		(property "Reference" "U2"
+			(at 135.89 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL082"
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual JFET-Input Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 135.89 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "868f3851-6d63-4bb5-a86d-fdf5379f452f")
+		)
+		(pin "7"
+			(uuid "0692ec14-96a9-4b1d-a55e-9e3c8baa5faa")
+		)
+		(pin "6"
+			(uuid "4d6eb999-2ac8-49a4-8491-846e3812e213")
+		)
+		(pin "8"
+			(uuid "d50ef987-87e6-4b85-b19e-67c419a1c181")
+		)
+		(pin "3"
+			(uuid "fd59ed02-a786-4620-8c43-e08c840866a7")
+		)
+		(pin "4"
+			(uuid "f2a3fbdc-b577-43c0-abfc-67fc921cad15")
+		)
+		(pin "1"
+			(uuid "05051396-5d2c-459c-9e08-f08fab0e662b")
+		)
+		(pin "5"
+			(uuid "907c481c-3fea-4edc-92b4-fa9b21816b14")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff140700-dddf-4879-b59c-ea12b449deb3")
+		(property "Reference" "R5"
+			(at 102.87 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.124 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a33c5ca-1b5c-44dd-a00f-be40f1542923")
+		)
+		(pin "1"
+			(uuid "a7355b91-240c-41fd-a846-eea44c8a22dd")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff775d56-8394-4b08-8b82-45554b5c75e7")
+		(property "Reference" "R4"
+			(at 69.85 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24.2k"
+			(at 69.85 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.104 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d050bb69-3dda-4108-b281-13248a4a5636")
+		)
+		(pin "1"
+			(uuid "a5f3959f-5755-4214-ad96-94f5be1a218f")
+		)
+		(instances
+			(project "InvertedPendulumKiCAD"
+				(path "/4464222e-e67b-40e1-8787-7d21dfda3cc7"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
